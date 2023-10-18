@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.bg{
+  /* The image used */
+  background-image: url("img/car1.png");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-body-tertiary{
+  background-color: #100f13!important;
+}
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: ;
+    --bs-navbar-disabled-color: white;
+    --bs-navbar-active-color: #4c3c7e;
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 2rem;
+    --bs-navbar-brand-color: white;
+    --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-nav-link-padding-x: 2rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
+    --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+.name{
+  color: lime;
+  font-size: 90px;
+  padding-top: 1.5in;
+  padding-left: 1in;
+}
+.dis{
+  color: white;
+  font-size: 17px;
+  padding-left: 1in;
+  padding-top: .4in;
+}
+.btn{
+  border: solid 3px green;
+  margin-left: 1in;
+  margin-top: .4in;
+  font-size: 30px;
+  text-align: center;
+  background-color: hotpink;
+  color: red;
+  border-radius: 100px;
+  --bs-btn-hover-color: red;
+  --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: green;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #4a4a4a;
+    --bs-btn-active-bg: black;
+    --bs-btn-active-border-color: #b36b29;
+}
+.info{
+  color: white;
+  padding-left: 1in;
+  padding-top: 1in;
+  padding-right: in;
+  font-size: 13px;
+}
